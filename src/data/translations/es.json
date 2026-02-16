@@ -108,13 +108,13 @@
           "📱 Formato PWA: funciona como app instalable desde el navegador"
         ]
       },
-      "workflowOrchestration": {
-        "title": "Demo Workflow Orchestration",
-        "description": "Embed placeholder para escenario de automatización e integración de procesos."
+      "aiAccountingPortal": {
+        "title": "Portal Contable IA + ERP",
+        "description": "Este portal automatiza la contabilidad mediante IA para extraer datos de facturas y validarlos directamente con un sistema ERP. Facilita el control de proveedores y documentos en tiempo real, garantizando la integridad de la información mediante procesos de sincronización masiva. Permite la supervisión humana y la corrección manual antes de la exportación final de los datos al sistema de gestión."
       },
-      "digitalOpsDashboard": {
-        "title": "Digital Operations Dashboard",
-        "description": "Embed placeholder para toma de decisiones guiada por analítica."
+      "aiStoreChat": {
+        "title": "Chat IA para Tienda",
+        "description": "Es un chat de IA integrado en la tienda que permite automatizar pedidos a partir de un prompt en lenguaje natural y actúa como buscador de productos. Interpreta la intención del usuario y genera respuestas interactivas, incluyendo listados y selección de productos. Admite interacción mediante texto y procesamiento de ficheros como TXT y CSV para estructurar pedidos automáticamente."
       }
     }
   },

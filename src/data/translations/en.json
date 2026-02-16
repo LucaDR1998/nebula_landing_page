@@ -107,13 +107,13 @@
           "📱 PWA format: works as an installable app from the browser"
         ]
       },
-      "workflowOrchestration": {
-        "title": "Demo Workflow Orchestration",
-        "description": "Placeholder embed for a process automation and integration scenario."
+      "aiAccountingPortal": {
+        "title": "AI Accounting Portal + ERP",
+        "description": "This portal automates accounting with AI to extract invoice data and validate it directly against an ERP system. It streamlines real-time control of suppliers and documents, ensuring data integrity through bulk synchronization workflows. It supports human supervision and manual correction before final data export to the management system."
       },
-      "digitalOpsDashboard": {
-        "title": "Digital Operations Dashboard",
-        "description": "Placeholder embed for analytics-driven decision-making."
+      "aiStoreChat": {
+        "title": "AI Store Chat Assistant",
+        "description": "It is an AI chat integrated into the store that automates orders from natural-language prompts and also acts as a product search engine. It interprets user intent and generates interactive responses, including product lists and item selection. It supports text interaction and file processing (TXT and CSV) to structure orders automatically."
       }
     },
     "highlightsAria": "Project highlights"

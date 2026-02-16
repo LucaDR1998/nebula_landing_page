@@ -8,16 +8,16 @@ const workVideos = [
     detailsKey: 'Projects.items.gymTracker.details'
   },
   {
-    id: 'workflowOrchestration',
-    embedUrl: 'https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ',
-    titleKey: 'Projects.items.workflowOrchestration.title',
-    descriptionKey: 'Projects.items.workflowOrchestration.description'
+    id: 'aiAccountingPortal',
+    embedUrl: 'https://www.youtube-nocookie.com/embed/qEaESDvO510',
+    titleKey: 'Projects.items.aiAccountingPortal.title',
+    descriptionKey: 'Projects.items.aiAccountingPortal.description'
   },
   {
-    id: 'digitalOpsDashboard',
-    embedUrl: 'https://www.youtube-nocookie.com/embed/ysz5S6PUM-U',
-    titleKey: 'Projects.items.digitalOpsDashboard.title',
-    descriptionKey: 'Projects.items.digitalOpsDashboard.description'
+    id: 'aiStoreChat',
+    embedUrl: 'https://www.youtube-nocookie.com/embed/6tsVH-FFPsM',
+    titleKey: 'Projects.items.aiStoreChat.title',
+    descriptionKey: 'Projects.items.aiStoreChat.description'
   }
 ]
 
