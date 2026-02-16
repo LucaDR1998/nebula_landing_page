@@ -1,0 +1,213 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "Projects": "Proyectos",
+    "process": "Proceso",
+    "standards": "Estándares",
+    "contact": "Contacto",
+    "selectLanguage": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Nebula Sur | partner de sistemas AI",
+    "title": "Optimización sin límites para empresas ambiciosas.",
+    "subtitle": "AI, automatización de procesos, digitalización, formación, consultoría y auditoría enfocadas en resultados medibles.",
+    "description": "Impulsamos la transformación tecnológica de tu empresa con soluciones de IA, automatización y digitalización diseñadas para escalar con seguridad, optimizar operaciones y convertir datos en decisiones de negocio.",
+    "primaryCta": "Servicios",
+    "secondaryCta": "Contacto",
+    "visualCaption": "Tu empresa, en otra dimensión.",
+    "chips": [
+      "Estrategia AI",
+      "Automatización de Procesos",
+      "Digital Operations",
+      "Formación de Equipos",
+      "Consultoría",
+      "Audit Readiness"
+    ]
+  },
+  "metrics": {
+    "eyebrow": "Señales de confianza",
+    "title": "Diseñado para velocidad de ejecución y gobierno",
+    "items": [
+      {
+        "value": "48h",
+        "label": "Ventana de diagnóstico",
+        "description": "Mapa inicial de operaciones y prioridades después del kickoff."
+      },
+      {
+        "value": "6",
+        "label": "Líneas de servicio",
+        "description": "Un marco integrado para AI, automatización y transformación digital."
+      },
+      {
+        "value": "360°",
+        "label": "Visibilidad de procesos",
+        "description": "Mapeo transversal para detectar bloqueos, desperdicios y oportunidades."
+      },
+      {
+        "value": "ROI",
+        "label": "Entrega orientada a impacto",
+        "description": "Cada iniciativa conecta decisiones técnicas con indicadores de negocio."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Servicios end-to-end para acelerar operaciones",
+    "subtitle": "Nebula Sur integra estrategia, engineering y enablement en una sola capa de ejecución.",
+    "items": [
+      {
+        "title": "Sistemas AI Aplicados",
+        "description": "Diseño e implementación de asistentes AI, flujos de retrieval y herramientas de soporte a decisiones.",
+        "outcome": "Resultado: decisiones más rápidas con menos fricción operativa."
+      },
+      {
+        "title": "Automatización de Procesos",
+        "description": "Automatización de flujos repetitivos en ventas, finanzas, soporte y operaciones internas con controles claros.",
+        "outcome": "Resultado: menor carga manual y menos cuellos de botella."
+      },
+      {
+        "title": "Programas de Digitalización",
+        "description": "Migración de rutinas manuales fragmentadas hacia workflows digitales conectados con datos consistentes.",
+        "outcome": "Resultado: datos más limpios y mayor consistencia operativa."
+      },
+      {
+        "title": "Formación Profesional",
+        "description": "Capacitación práctica para adoptar sistemas digitales, herramientas AI y disciplina de procesos.",
+        "outcome": "Resultado: mayor adopción y capacidad interna sostenible."
+      },
+      {
+        "title": "Consultoría Estratégica",
+        "description": "Acompañamiento para roadmap de transformación, priorización y reducción de riesgos de ejecución.",
+        "outcome": "Resultado: foco más claro y mejor asignación de inversión."
+      },
+      {
+        "title": "Auditoría y Compliance Readiness",
+        "description": "Evaluaciones operativas y técnicas para fortalecer trazabilidad, gobernanza y preparación de auditoría.",
+        "outcome": "Resultado: postura de control más robusta antes de revisiones formales."
+      }
+    ]
+  },
+  "Projects": {
+    "eyebrow": "Trabajos seleccionados",
+    "title": "Proyectos",
+    "openDetails": "Haz clic para abrir detalles del vídeo",
+    "closeModalAria": "Cerrar detalles del vídeo",
+    "iframeTitleSuffix": "Vista previa",
+    "items": {
+      "operationsCopilot": {
+        "title": "Prototype Operations Copilot",
+        "description": "Embed placeholder para recorrido de workflow operativo asistido por AI."
+      },
+      "workflowOrchestration": {
+        "title": "Demo Workflow Orchestration",
+        "description": "Embed placeholder para escenario de automatización e integración de procesos."
+      },
+      "digitalOpsDashboard": {
+        "title": "Digital Operations Dashboard",
+        "description": "Embed placeholder para toma de decisiones guiada por analítica."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Cómo ejecutamos",
+    "title": "Modelo práctico: del diagnóstico al resultado",
+    "steps": [
+      {
+        "title": "Auditoría y mapeo",
+        "description": "Mapeamos sistemas, restricciones y objetivos para definir una base real de transformación."
+      },
+      {
+        "title": "Roadmap y arquitectura",
+        "description": "Priorizamos iniciativas, diseñamos arquitectura y alineamos la secuencia con tu realidad operativa."
+      },
+      {
+        "title": "Implementación y adopción",
+        "description": "Desplegamos por incrementos controlados y entrenamos stakeholders clave para una adopción estable."
+      },
+      {
+        "title": "Optimización continua",
+        "description": "Monitoreamos resultados, ajustamos puntos débiles y transferimos playbooks reutilizables al equipo interno."
+      }
+    ]
+  },
+  "standards": {
+    "eyebrow": "Estándares",
+    "title": "Principios de calidad en cada proyecto",
+    "items": [
+      {
+        "title": "Security-first",
+        "description": "Controles de acceso, límites de datos y configuraciones seguras desde el inicio."
+      },
+      {
+        "title": "Entrega observable",
+        "description": "Cada fase se documenta con checkpoints explícitos y avance visible para negocio."
+      },
+      {
+        "title": "Sistemas modulares",
+        "description": "Las soluciones se construyen para evolucionar sin reconstruir todo en cada cambio."
+      },
+      {
+        "title": "Transferencia de conocimiento",
+        "description": "Los equipos internos reciben guía práctica para operar con autonomía después del rollout."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Siguiente paso",
+    "title": "Contacto",
+    "subtitle": "Comparte contexto y prioridades. El formulario abre un email prellenado para Nebula Sur.",
+    "detailLabels": {
+      "email": "Email",
+      "phone": "Teléfono"
+    },
+    "details": {
+      "email": "surnebula@gmail.com",
+      "phone": "+34 655 309 861"
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Email corporativo",
+      "company": "Empresa",
+      "service": "Servicio prioritario",
+      "servicePlaceholder": "Selecciona uno",
+      "message": "Contexto del proyecto",
+      "messagePlaceholder": "Describe reto, tiempos y resultado esperado.",
+      "consent": "Acepto ser contactado respecto a esta solicitud.",
+      "submit": "Abrir borrador email",
+      "success": "Tu borrador de email está listo. Completa el envío desde tu bandeja.",
+      "error": "Revisa los campos obligatorios antes de enviar.",
+      "subjectPrefix": "Consulta Nebula Sur -",
+      "services": [
+        {
+          "value": "ai-automation",
+          "label": "AI + automatización de procesos"
+        },
+        {
+          "value": "digitalization",
+          "label": "Programa de digitalización"
+        },
+        {
+          "value": "training",
+          "label": "Formación y adopción"
+        },
+        {
+          "value": "consulting-audit",
+          "label": "Consultoría y auditoría"
+        }
+      ],
+      "errors": {
+        "name": "Ingresa al menos 2 caracteres.",
+        "email": "Ingresa un email válido.",
+        "company": "Ingresa el nombre de tu empresa.",
+        "service": "Selecciona un servicio prioritario.",
+        "message": "Escribe al menos 20 caracteres.",
+        "consent": "El consentimiento es obligatorio para continuar."
+      }
+    }
+  },
+  "footer": {
+    "note": "Landing placeholder. Reemplaza estos recursos demo con material real de producción.",
+    "rights": "Todos los derechos reservados."
+  }
+}
