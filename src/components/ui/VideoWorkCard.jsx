@@ -12,7 +12,7 @@ const MODAL_PHASE = {
   CLOSING: 'closing'
 }
 
-function VideoWorkCard({ video, index }) {
+function VideoWorkCard({ video }) {
   const { t } = useLanguage()
   const [modalPhase, setModalPhase] = useState(MODAL_PHASE.CLOSED)
   const [morphMetrics, setMorphMetrics] = useState(null)
@@ -23,7 +23,12 @@ function VideoWorkCard({ video, index }) {
   const openingFrameRef = useRef(null)
 
   const modalTitleId = `video-modal-title-${video.id}`
-  const indexLabel = String(index).padStart(2, '0')
+  const description = t(video.descriptionKey)
+  const details = video.detailsKey ? t(video.detailsKey) : null
+  const detailItems = Array.isArray(details) ? details : []
+  const frameStyle = video.frameRatio
+    ? { '--video-aspect-ratio': video.frameRatio }
+    : undefined
 
   const clearTimers = useCallback(() => {
     if (openTimerRef.current) {
@@ -54,7 +59,7 @@ function VideoWorkCard({ video, index }) {
       : Math.max(Math.min(980, viewportWidth - viewportMargin), 320)
     const finalHeight = isMobile
       ? Math.max(Math.min(viewportHeight * 0.9, viewportHeight - viewportMargin), 280)
-      : Math.max(Math.min(viewportHeight * 0.88, viewportHeight - viewportMargin), 340)
+      : Math.max(Math.min(viewportHeight * 0.9, viewportHeight - viewportMargin), 360)
 
     const sourceCenterX = rect.left + rect.width / 2
     const sourceCenterY = rect.top + rect.height / 2
@@ -163,11 +168,10 @@ function VideoWorkCard({ video, index }) {
           aria-expanded={isModalVisible}
         >
           <div className="video-work-header">
-            <span className="video-work-index">{indexLabel}</span>
             <h3>{t(video.titleKey)}</h3>
           </div>
 
-          <p>{t(video.descriptionKey)}</p>
+          <p>{description}</p>
           <span className="video-work-open-hint">{t('Projects.openDetails')}</span>
         </button>
       </article>
@@ -187,10 +191,9 @@ function VideoWorkCard({ video, index }) {
               <div className="video-morph-face video-morph-face-front" aria-hidden="true">
                 <div className="video-morph-front-content">
                   <div className="video-work-header">
-                    <span className="video-work-index">{indexLabel}</span>
                     <h3>{t(video.titleKey)}</h3>
                   </div>
-                  <p>{t(video.descriptionKey)}</p>
+                  <p>{description}</p>
                   <span className="video-work-open-hint">{t('Projects.openDetails')}</span>
                 </div>
               </div>
@@ -210,27 +213,36 @@ function VideoWorkCard({ video, index }) {
                   ×
                 </button>
 
-                <div className="video-work-header">
-                  <span className="video-work-index">{indexLabel}</span>
-                  <h3 id={modalTitleId}>{t(video.titleKey)}</h3>
-                </div>
-
-                <p className="video-modal-description">{t(video.descriptionKey)}</p>
-
-                {mountVideo ? (
-                  <div className="video-frame-wrapper video-frame-wrapper-modal">
-                    <iframe
-                      src={video.embedUrl}
-                      title={`${t(video.titleKey)} - ${t('Projects.iframeTitleSuffix')}`}
-                      loading="lazy"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerPolicy="strict-origin-when-cross-origin"
-                      allowFullScreen
-                    />
+                <div className="video-modal-body">
+                  <div className="video-work-header">
+                    <h3 id={modalTitleId}>{t(video.titleKey)}</h3>
                   </div>
-                ) : (
-                  <div className="video-frame-placeholder" aria-hidden="true" />
-                )}
+
+                  <p className="video-modal-description">{description}</p>
+
+                  {detailItems.length > 0 && (
+                    <ul className="video-modal-highlights" aria-label={t('Projects.highlightsAria')}>
+                      {detailItems.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {mountVideo ? (
+                    <div className="video-frame-wrapper video-frame-wrapper-modal" style={frameStyle}>
+                      <iframe
+                        src={video.embedUrl}
+                        title={`${t(video.titleKey)} - ${t('Projects.iframeTitleSuffix')}`}
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                      />
+                    </div>
+                  ) : (
+                    <div className="video-frame-placeholder" style={frameStyle} aria-hidden="true" />
+                  )}
+                </div>
               </div>
             </div>
           </div>

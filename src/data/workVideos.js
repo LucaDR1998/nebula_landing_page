@@ -1,9 +1,11 @@
 const workVideos = [
   {
-    id: 'operationsCopilot',
-    embedUrl: 'https://www.youtube-nocookie.com/embed/M7lc1UVf-VE',
-    titleKey: 'Projects.items.operationsCopilot.title',
-    descriptionKey: 'Projects.items.operationsCopilot.description'
+    id: 'gymTracker',
+    embedUrl: 'https://www.youtube-nocookie.com/embed/rfXKkilnumo',
+    frameRatio: '4 / 3',
+    titleKey: 'Projects.items.gymTracker.title',
+    descriptionKey: 'Projects.items.gymTracker.description',
+    detailsKey: 'Projects.items.gymTracker.details'
   },
   {
     id: 'workflowOrchestration',

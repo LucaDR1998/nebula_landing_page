@@ -12,11 +12,10 @@ export default function WorkVideos() {
         <h2 className="section-title">{t('Projects.title')}</h2>
 
         <div className="videos-stack">
-          {workVideos.map((video, index) => (
+          {workVideos.map((video) => (
             <VideoWorkCard
               key={video.id}
               video={video}
-              index={index + 1}
             />
           ))}
         </div>

@@ -12,12 +12,12 @@ const LanguageContext = createContext()
 
 export function LanguageProvider({ children }) {
   const [language, setLanguage] = useState(() => {
-    const saved = localStorage.getItem('portfolio-language')
+    const saved = localStorage.getItem('nebula-language')
     return saved || DEFAULT_LANGUAGE
   })
 
   useEffect(() => {
-    localStorage.setItem('portfolio-language', language)
+    localStorage.setItem('nebula-language', language)
   }, [language])
 
   const resolveKey = useCallback((source, key) => {

@@ -95,9 +95,17 @@
     "closeModalAria": "Close video details",
     "iframeTitleSuffix": "Preview",
     "items": {
-      "operationsCopilot": {
-        "title": "Prototype Operations Copilot",
-        "description": "Placeholder embed for an AI-assisted operational workflow walkthrough."
+      "gymTracker": {
+        "title": "Gym Tracker (AppGYM)",
+        "description": "Gym Tracker (AppGYM) is a PWA that tracks nutrition, workouts, and body metrics to calculate energy balance and body composition progress. It also uses AI to analyze habits and provide personalized recommendations to improve performance and composition.",
+        "details": [
+          "📊 Nutrition tracking: log meals, calories, and macros",
+          "🏋️ Workout control: routines, exercises, and progress",
+          "⚖️ Energy balance: TDEE plus deficit/surplus calculation",
+          "🤖 AI assistance: recommendations, analysis, and contextual help",
+          "📈 History and metrics: weight, habits, and performance evolution",
+          "📱 PWA format: works as an installable app from the browser"
+        ]
       },
       "workflowOrchestration": {
         "title": "Demo Workflow Orchestration",
@@ -107,7 +115,8 @@
         "title": "Digital Operations Dashboard",
         "description": "Placeholder embed for analytics-driven decision-making."
       }
-    }
+    },
+    "highlightsAria": "Project highlights"
   },
   "process": {
     "eyebrow": "How we execute",
